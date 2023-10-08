@@ -324,7 +324,7 @@ namespace dxvk {
     DxvkExt khrSwapchain                      = { VK_KHR_SWAPCHAIN_EXTENSION_NAME,                          DxvkExtMode::Required };
     DxvkExt khrDeferredHostOperations         = { VK_KHR_DEFERRED_HOST_OPERATIONS_EXTENSION_NAME,           DxvkExtMode::Required };
     DxvkExt khrAccelerationStructure          = { VK_KHR_ACCELERATION_STRUCTURE_EXTENSION_NAME,             DxvkExtMode::Required };
-    DxvkExt khrRayQueries                     = { VK_KHR_RAY_QUERY_EXTENSION_NAME,                          DxvkExtMode::Required };
+    DxvkExt khrRayQueries                     = { VK_NV_ray_tracing_EXTENSION_NAME,                          DxvkExtMode::Required };
     DxvkExt khrRayTracingPipeline             = { VK_KHR_RAY_TRACING_PIPELINE_EXTENSION_NAME,               DxvkExtMode::Required };
     DxvkExt khrBufferDeviceAddress            = { VK_KHR_BUFFER_DEVICE_ADDRESS_EXTENSION_NAME,              DxvkExtMode::Required };
     DxvkExt khrPipelineLibrary                = { VK_KHR_PIPELINE_LIBRARY_EXTENSION_NAME,                   DxvkExtMode::Optional };
